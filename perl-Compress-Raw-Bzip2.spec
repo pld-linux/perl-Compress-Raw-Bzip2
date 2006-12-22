@@ -29,7 +29,7 @@ compression/uncompression functions from the bzip2 compression
 library.
 
 Although the primary purpose for the existence of Compress::Raw::Bzip2
-is for use by the IO::Compress::Bzip2 and IO::Compress::Bunzip2
+is for use by the IO::Compress::Bzip2 and IO::Uncompress::Bunzip2
 modules, it can be used on its own for simple
 compression/uncompression tasks.
 
@@ -38,7 +38,7 @@ Compress::Raw::Bzip2 udostêpnia interfejs do funkcji
 kompresji/dekompresji w pamiêci z biblioteki kompresji bzip2.
 
 Choæ g³ównym celem istnienia Compress::Raw::Bzip2 jest wykorzystywanie
-przez modu³y IO::Compress::Bzip2 i IO::Compress::Bunzip2, mo¿na tego
+przez modu³y IO::Compress::Bzip2 i IO::Uncompress::Bunzip2, mo¿na tego
 modu³u u¿yæ samodzielnie do prostych zadañ kompresji/dekompresji.
 
 %prep
