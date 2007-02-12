@@ -6,7 +6,7 @@
 %define	pdir	Compress
 %define	pnam	Raw-Bzip2
 Summary:	Compress::Raw::Bzip2 - Low-Level Interface to bzip2 compression library
-Summary(pl):	Niskopoziomowy interfejs do biblioteki kompresji bzip2
+Summary(pl.UTF-8):   Niskopoziomowy interfejs do biblioteki kompresji bzip2
 Name:		perl-Compress-Raw-Bzip2
 Version:	2.001
 Release:	1
@@ -33,13 +33,13 @@ is for use by the IO::Compress::Bzip2 and IO::Uncompress::Bunzip2
 modules, it can be used on its own for simple
 compression/uncompression tasks.
 
-%description -l pl
-Compress::Raw::Bzip2 udostêpnia interfejs do funkcji
-kompresji/dekompresji w pamiêci z biblioteki kompresji bzip2.
+%description -l pl.UTF-8
+Compress::Raw::Bzip2 udostÄ™pnia interfejs do funkcji
+kompresji/dekompresji w pamiÄ™ci z biblioteki kompresji bzip2.
 
-Choæ g³ównym celem istnienia Compress::Raw::Bzip2 jest wykorzystywanie
-przez modu³y IO::Compress::Bzip2 i IO::Uncompress::Bunzip2, mo¿na tego
-modu³u u¿yæ samodzielnie do prostych zadañ kompresji/dekompresji.
+ChoÄ‡ gÅ‚Ã³wnym celem istnienia Compress::Raw::Bzip2 jest wykorzystywanie
+przez moduÅ‚y IO::Compress::Bzip2 i IO::Uncompress::Bunzip2, moÅ¼na tego
+moduÅ‚u uÅ¼yÄ‡ samodzielnie do prostych zadaÅ„ kompresji/dekompresji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
