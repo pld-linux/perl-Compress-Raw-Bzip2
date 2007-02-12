@@ -6,7 +6,7 @@
 %define	pdir	Compress
 %define	pnam	Raw-Bzip2
 Summary:	Compress::Raw::Bzip2 - Low-Level Interface to bzip2 compression library
-Summary(pl.UTF-8):   Niskopoziomowy interfejs do biblioteki kompresji bzip2
+Summary(pl.UTF-8):	Niskopoziomowy interfejs do biblioteki kompresji bzip2
 Name:		perl-Compress-Raw-Bzip2
 Version:	2.001
 Release:	1
