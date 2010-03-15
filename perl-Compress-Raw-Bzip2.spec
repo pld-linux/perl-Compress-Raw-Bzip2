@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b95582de2ed635e7f44de302accc879a
 URL:		http://search.cpan.org/dist/Compress-Raw-Bzip2/
 BuildRequires:	bzip2-devel >= 1.0.3
