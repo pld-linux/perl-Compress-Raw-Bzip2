@@ -67,7 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Compress/Raw/Bzip2.pm
 %dir %{perl_vendorarch}/auto/Compress/Raw/Bzip2
-%{perl_vendorarch}/auto/Compress/Raw/Bzip2/Bzip2.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Compress/Raw/Bzip2/Bzip2.so
 %{perl_vendorarch}/auto/Compress/Raw/Bzip2/autosplit.ix
 %{_mandir}/man3/Compress::Raw::Bzip2.3pm*
