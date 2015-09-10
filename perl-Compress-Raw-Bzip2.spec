@@ -8,13 +8,13 @@
 Summary:	Compress::Raw::Bzip2 - Low-Level Interface to bzip2 compression library
 Summary(pl.UTF-8):	Niskopoziomowy interfejs do biblioteki kompresji bzip2
 Name:		perl-Compress-Raw-Bzip2
-Version:	2.061
+Version:	2.068
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	44648bb83e8ec7189afc531ba32143be
+# Source0-md5:	3a8368a3254bbdfca9eaf30788b54342
 URL:		http://search.cpan.org/dist/Compress-Raw-Bzip2/
 BuildRequires:	bzip2-devel >= 1.0.3
 BuildRequires:	perl-ExtUtils-MakeMaker >= 5.16
@@ -68,5 +68,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Compress/Raw/Bzip2.pm
 %dir %{perl_vendorarch}/auto/Compress/Raw/Bzip2
 %attr(755,root,root) %{perl_vendorarch}/auto/Compress/Raw/Bzip2/Bzip2.so
-%{perl_vendorarch}/auto/Compress/Raw/Bzip2/autosplit.ix
 %{_mandir}/man3/Compress::Raw::Bzip2.3pm*
