@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Compress
 %define	pnam	Raw-Bzip2
 Summary:	Compress::Raw::Bzip2 - Low-Level Interface to bzip2 compression library
